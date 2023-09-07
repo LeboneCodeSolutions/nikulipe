@@ -4,10 +4,24 @@ body {
 
 .navbar {
     background-color: transparent !important;
+    margin: 50px;
 }
 
 
 
 .navbar-brand{
     font-size: 25px;
+    margin-left: 100px;
+}
+
+.nav-item-text{
+    font-size: 15px;
+    margin-left:35px ;
+}
+.fa-angle-down{
+    font-size: 8px;
+}
+
+.contact_us{
+    margin-right: 100px;
 }
