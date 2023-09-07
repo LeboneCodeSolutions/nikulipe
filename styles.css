@@ -1,0 +1,13 @@
+body {
+    background-color: #EEE2DE;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+
+
+.navbar-brand{
+    font-size: 25px;
+}
