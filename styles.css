@@ -7,21 +7,57 @@ body {
     margin: 50px;
 }
 
-
-
-.navbar-brand{
-    font-size: 25px;
+.navbar-brand {
+    color: #B31312;
+    font-size: 30px;
     margin-left: 100px;
 }
 
-.nav-item-text{
+.nav-item-text {
+    color: #EA906C;
     font-size: 15px;
-    margin-left:35px ;
+    margin-left: 35px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: lighter;
 }
-.fa-angle-down{
+
+.fa-angle-down {
     font-size: 8px;
 }
 
-.contact_us{
+.contact_us {
     margin-right: 100px;
+}
+
+
+
+.main {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+}
+
+.img-container {
+    max-width: 80%; /* Adjust the width as needed */
+}
+
+.img-container img {
+    width: 122%; /* Make sure the image doesn't exceed its container */
+}
+
+.text-container {
+    margin-left:170px;
+    color: #EA906C;
+    font-family: 'DM Sans', sans-serif;
+    max-width: 50%;
+    padding: 0 20px; /* Add some padding for spacing */
+}
+
+.main-body-txt {
+    margin-top: 90px;
+    margin-bottom: 25px;
+    font-size: 80px;
+}
+
+.secondary-body-txt {
+    font-size: 15px;
 }
