@@ -1,10 +1,11 @@
 body {
-  
+    font-family: 'DM Sans', sans-serif
 }
 
 .navbar {
     background-color: transparent !important;
     margin: 50px;
+
 }
 
 .navbar-brand {
@@ -17,7 +18,6 @@ body {
     color: #EA906C;
     font-size: 15px;
     margin-left: 35px;
-    font-family: 'DM Sans', sans-serif;
     font-weight: lighter;
 }
 
@@ -33,24 +33,28 @@ body {
 
 .main {
     display: flex;
-    align-items: center; /* Vertically center the content */
+    align-items: center;
+    /* Vertically center the content */
     background-color: #EEE2DE;
 }
 
 .img-container {
-    max-width: 80%; /* Adjust the width as needed */
+    max-width: 80%;
+    /* Adjust the width as needed */
 }
 
 .img-container img {
-    width: 122%; /* Make sure the image doesn't exceed its container */
+    width: 122%;
+    /* Make sure the image doesn't exceed its container */
 }
 
 .text-container {
-    margin-left:170px;
+    margin-left: 170px;
     color: #EA906C;
-    font-family: 'DM Sans', sans-serif;
+
     max-width: 50%;
-    padding: 0 20px; /* Add some padding for spacing */
+    padding: 0 20px;
+    /* Add some padding for spacing */
 }
 
 .main-body-txt {
@@ -64,6 +68,56 @@ body {
 }
 
 
-.mid{
-background-color: white;
+.mid {
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+
+
+.value-propositon {
+    font-size: 19px;
+    color: #B31312;
+}
+
+.why-nikulipe {
+    margin-top: 30px;
+}
+
+.why-nikulipe-text {
+    font-size: 48px;
+    color: #EA906C;
+}
+
+i{
+    font-size: 30px;
+    color: #2B2A4C;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+h3{
+    font-size: 32px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.description{
+    font-size: 16px;
+    margin-top: 25px;
+
+}
+
+.mid-section-img{
+    margin-top: 150px;
+    margin-left: 150px;
+    width:80%;
+    height: 2%;
 }
