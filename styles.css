@@ -90,7 +90,7 @@ body {
     color: #EA906C;
 }
 
-i{
+i {
     font-size: 30px;
     color: #2B2A4C;
 }
@@ -100,24 +100,144 @@ i{
     justify-content: space-around;
     text-align: center;
     margin-top: 90px;
-    margin-left: 50px;
+    margin-left: 220px
 }
 
-h3{
+h3 {
     font-size: 32px;
     margin-top: 25px;
     margin-bottom: 15px;
 }
 
-.description{
+.description {
     font-size: 16px;
     margin-top: 25px;
 
 }
 
-.mid-section-img{
-    margin-top: 150px;
-    margin-left: 150px;
-    width:80%;
+.mid-section {
+    text-align: center;
+    /* Center the content if needed */
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.mid-section-img {
+    margin-top: 120px;
+    margin-left: 10px;
+    max-width: 100%;
     height: 2%;
+}
+
+.text-overlay {
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.text-overlay-heading {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.text-overlay-description {
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+.text-overlay-paragraph {
+    font-size: 13px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.text-overlay-button {
+    background: transparent;
+    padding: 16px 70px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    /* Set the border to be black */
+    border-radius: 50px;
+}
+
+.mid-1-section {
+    margin-top: 100px;
+    margin-left: 80px;
+
+}
+
+.relevant-news {
+    color: #2B2A4C;
+    font-size: 30px;
+}
+
+
+.mid-1-section-items {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.whitepaper-title,.blog-title,.report-title{
+    color: #EA906C;
+    font-size: 13px;
+}
+.date-stamp{
+    color: gray;
+    font-size: 11px;
+
+
+}
+
+.read-more-sec{
+    margin-top: 20px;
+}
+.report-description,.blog-description,.whitepaper-description{
+    margin-top: 30px;
+}
+.report-img {
+    width: 70%;
+    /* Make the images fill their respective containers */
+}
+
+.blog-img {
+    width: 87%
+}
+
+.whitepaper-img {
+    width:77.9%
+}
+
+.description-2{
+    font-size: 16px;
+    
+}
+
+.read-more{
+    font-size: 12px;
+}
+
+.hr-line{
+    width: 7%;
+    border-width: 4px;
+    border-radius: 3px;
+}
+.newsroom-text{
+    font-size: 20px;
+}
+
+.hr-line,.newsroom-text{
+    color: #B31312;
 }
