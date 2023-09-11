@@ -241,3 +241,53 @@ h3 {
 .hr-line,.newsroom-text{
     color: #B31312;
 }
+
+
+
+
+.new-section{
+    padding-bottom: 95.25px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    /* Vertically center the content */
+    background-color: #EEE2DE;
+}
+
+
+.solutions-section{
+    margin-top: 5%;
+    margin-left: 323px;
+}
+
+.solutions-heading{
+    font-size: 17px;
+}
+
+.solutions-description{
+    font-size: 60px;
+}
+
+.solutions-description-1{
+    font-size: 14px;
+}
+
+.solutions-description,.solutions-description-1{
+    margin-top: 40px;
+}
+.text-overlay-button-1{
+    background: transparent;
+    padding: 16px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    /* Set the border to be black */
+    border-radius: 40px;
+    margin-top: 20px;
+}
