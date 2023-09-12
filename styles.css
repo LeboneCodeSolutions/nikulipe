@@ -263,11 +263,12 @@ h3 {
 }
 
 .solutions-heading{
+    color: #2B2A4C;
     font-size: 17px;
 }
 
 .solutions-description{
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .solutions-description-1{
@@ -275,6 +276,7 @@ h3 {
 }
 
 .solutions-description,.solutions-description-1{
+    color: #2B2A4C;
     margin-top: 40px;
 }
 .text-overlay-button-1{
@@ -285,8 +287,8 @@ h3 {
     font-size: 12px;
     margin: 4px 2px;
     cursor: pointer;
-    color: rgb(0, 0, 0);
-    border: 1px solid rgb(0, 0, 0);
+    color: #2B2A4C;
+    border: 1px solid #2B2A4C;
     /* Set the border to be black */
     border-radius: 40px;
     margin-top: 20px;
