@@ -50,7 +50,7 @@ body {
 
 .text-container {
     margin-left: 170px;
-    color: #EA906C;
+    color: #2B2A4C;
 
     max-width: 50%;
     padding: 0 20px;
@@ -190,23 +190,30 @@ h3 {
     margin-top: 50px;
 }
 
-.whitepaper-title,.blog-title,.report-title{
+.whitepaper-title,
+.blog-title,
+.report-title {
     color: #EA906C;
     font-size: 13px;
 }
-.date-stamp{
+
+.date-stamp {
     color: gray;
     font-size: 11px;
 
 
 }
 
-.read-more-sec{
+.read-more-sec {
     margin-top: 20px;
 }
-.report-description,.blog-description,.whitepaper-description{
+
+.report-description,
+.blog-description,
+.whitepaper-description {
     margin-top: 30px;
 }
+
 .report-img {
     width: 70%;
     /* Make the images fill their respective containers */
@@ -217,35 +224,37 @@ h3 {
 }
 
 .whitepaper-img {
-    width:77.9%
+    width: 77.9%
 }
 
-.description-2{
+.description-2 {
     font-size: 16px;
-    
+
 }
 
-.read-more{
+.read-more {
     font-size: 12px;
 }
 
-.hr-line{
+.hr-line {
     width: 7%;
     border-width: 4px;
     border-radius: 3px;
 }
-.newsroom-text{
+
+.newsroom-text {
     font-size: 20px;
 }
 
-.hr-line,.newsroom-text{
+.hr-line,
+.newsroom-text {
     color: #B31312;
 }
 
 
 
 
-.new-section{
+.new-section {
     padding-bottom: 95.25px;
     margin-top: 5%;
     margin-left: 10%;
@@ -257,29 +266,31 @@ h3 {
 }
 
 
-.solutions-section{
+.solutions-section {
     margin-top: 5%;
     margin-left: 323px;
 }
 
-.solutions-heading{
+.solutions-heading {
     color: #2B2A4C;
     font-size: 17px;
 }
 
-.solutions-description{
+.solutions-description {
     font-size: 40px;
 }
 
-.solutions-description-1{
+.solutions-description-1 {
     font-size: 14px;
 }
 
-.solutions-description,.solutions-description-1{
+.solutions-description,
+.solutions-description-1 {
     color: #2B2A4C;
     margin-top: 40px;
 }
-.text-overlay-button-1{
+
+.text-overlay-button-1 {
     background: transparent;
     padding: 16px 30px;
     text-align: center;
@@ -292,4 +303,90 @@ h3 {
     /* Set the border to be black */
     border-radius: 40px;
     margin-top: 20px;
+}
+
+
+footer {
+    background-color: #EEE2DE;
+    margin-top: 100px;
+    padding-top: 30px;
+}
+
+.footer-section {
+    margin-top: -20px;
+}
+
+.footer-heading {
+    font-size: 20px;
+    color: #B31312;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.footer-content {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 266.7px;
+}
+
+.footer-heading {
+    flex-basis: 100%;
+    margin-bottom: 70px;
+    /* Adjust as needed */
+}
+
+.about-section,
+.contact_us-section,
+.faq-section {
+
+    flex: 1;
+    margin: 0 10px;
+    margin-right: 200px;
+    /* Add some margin between sections */
+    max-width: 300px;
+    /* Adjust as needed */
+}
+
+.about-section-heading,
+.contact-us-section-heading,
+.faq-section-heading {
+    font-size: 23px;
+}
+
+.faq-section-desription,
+.contact-us-section-description,
+.about-section-description {
+    font-size: 11px;
+}
+
+
+.subscribe-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    margin-left: 60px;
+    padding-bottom: 200px;
+}
+
+.email-input {
+    padding: 12px;
+    border-radius: px;
+    width: 20%;
+    border: none
+}
+
+.submit-email {
+    background-color:#EA906C;
+    border: none;
+    margin-left: 23px;
+    color: white;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+
 }
