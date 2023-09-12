@@ -1,0 +1,23 @@
+{
+  "name": "navigate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeboneCodeSolutions/nikulipe.git"
+  },
+  "author": "Lebone Ngobese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeboneCodeSolutions/nikulipe/issues"
+  },
+  "homepage": "https://github.com/LeboneCodeSolutions/nikulipe#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2"
+  }
+}
