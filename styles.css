@@ -379,7 +379,7 @@ footer {
 }
 
 .submit-email {
-    background-color:#EA906C;
+    background-color: #EA906C;
     border: none;
     margin-left: 23px;
     color: white;
@@ -389,4 +389,35 @@ footer {
     display: inline-block;
     font-size: 15px;
 
+}
+
+
+
+/* CSS for 404-page */
+.error {
+    margin-top: 300px;
+}
+
+.main-message {
+    color: #2B2A4C;
+    margin: 20px;
+    font-size: 180px;
+}
+
+.error-message{
+    color: #2B2A4C;
+    font-size: 20px;
+}
+.error-message,
+.main-message, .return-home-message{
+    display: flex;
+    justify-content: center;
+
+}
+
+.fa-circle-exclamation {
+    color: #B31312;
+    margin-left: 2px;
+    /* Adjust the value to control the amount of space between the text and the icon */
+    font-size: 150px;
 }
